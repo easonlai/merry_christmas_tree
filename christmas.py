@@ -1,5 +1,5 @@
 import random
-height = 11
+height = 15
 def christmas_tree():
     print('\n')
     for i in range(height):
@@ -13,7 +13,7 @@ def christmas_tree():
             print('*', end='')
         print()
     print((' ' * height) + '|')
-    print((' ' * 4) + 'Merry Christmas!')
-    print((' ' * 9) + '2021\n')
+    print((' ' * 8) + 'Merry Christmas!')
+    print((' ' * 13) + '2021\n')
 
 christmas_tree()
